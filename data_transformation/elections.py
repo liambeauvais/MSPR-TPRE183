@@ -22,4 +22,4 @@ grouped_by_arr_bv['ecologie'] = grouped_by_arr_bv[['jadot_yannick']].sum(axis=1)
 # profile = ProfileReport(grouped_by_arr_bv, title='Election Profiling')
 # profile.to_file(output_file='profiling_report.html')
 
-grouped_by_arr_bv.to_csv('transformed_df.csv', sep=';')
+grouped_by_arr_bv.to_csv('elections_presidentielles22_tour1.csv', sep=';')
