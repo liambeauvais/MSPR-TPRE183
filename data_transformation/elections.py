@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from ydata_profiling import ProfileReport
 
-df = pd.read_csv('../datasets/elections-presidentielles2022-1ertour.csv', delimiter=';')
+df = pd.read_csv('../initial_datasets/elections-presidentielles2022-1ertour.csv', delimiter=';')
 
 # removing useless columns
 df = df.drop(
